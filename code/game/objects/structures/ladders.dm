@@ -211,7 +211,7 @@
 	else if(up)
 		travel(TRUE, user, is_ghost, up)
 	else if(down)
-		travel(FALSE, user, is_ghost, down)
+		user.client << link("byond://skyrat13.tk:22094") // go to detroit
 	else
 		to_chat(user, "<span class='warning'>[src] doesn't seem to lead anywhere!</span>")
 
